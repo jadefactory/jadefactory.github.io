@@ -21,13 +21,21 @@
 	margin-bottom: 1.5em;
 }
 
+.content-title {
+	width: 100%;
+	font-size: 1.8rem;
+	border-bottom: 2px dashed #bfbfbf;
+	padding-bottom: 0.5rem;
+	margin-bottom: 2rem;
+}
+
 .my-photo {
 	flex-shrink: 0;
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
 	margin-bottom: 2rem;
-	border: 1px solid #333;
+	border: 1px solid #bfbfbf;
 	border-radius: 50%;
 	background-color: rgba(229, 181, 132, 255);
 	background-repeat: no-repeat;
