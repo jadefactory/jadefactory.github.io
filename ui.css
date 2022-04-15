@@ -1,21 +1,22 @@
 /* bullet list */
-.info-list {
+.role-list {
+	width: 100%;
 	margin-bottom: 2rem;
 }
-.info-list-item {
+.role-list-item {
 	display: flex;
 	margin: 0.5em 0;
 }
-.info-list-item:before {
-	content: '⌘';
+.role-list-item:before {
+	content: '▸';
 	margin-right: 0.5em;
 }
 
-/* message */
-.user-list {
+/* content */
+.content-list {
 	margin-bottom: 2rem;
 }
-.user-item {
+.content-item {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.5em;
@@ -44,12 +45,36 @@
 }
 
 @media (min-width: 720px) {
-	.user-item {
+	.content-item {
 		flex-direction: row;
 	}
 	.my-photo {
 		margin-right: 3rem;
 	}
+}
+
+/* work experience */
+
+.company-info {
+	flex-shrink: 0;
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.company-name {
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+.company-name-english {
+	margin-bottom: 0.5rem;
+}
+
+.company-position {
+	font-weight: 600;
+	margin-bottom: 1rem;
 }
 
 /* friend list */
@@ -60,6 +85,15 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+
+mark {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #fff;
+	background-color: #333;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 25%);
 }
 
 /* card list */

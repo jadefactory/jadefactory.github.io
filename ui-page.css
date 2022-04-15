@@ -131,8 +131,22 @@
 	margin: 0 auto;
 }
 
-.message-content {
+.introduction {
 	line-height: 1.6;
+}
+
+/* work experience */
+@media (min-width: 720px) {
+	.company-info {
+		flex-shrink: 0;
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.role-list {
+		margin-left: 3rem;
+	}
 }
 
 .secondary {
