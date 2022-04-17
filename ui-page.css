@@ -149,6 +149,20 @@
 	}
 }
 
+/* skill & knowledge */
+@media (min-width: 720px) {
+	.skill-info {
+		flex-shrink: 0;
+		width: 200px;
+		height: 150px;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.skill-detail {
+		margin-left: 3rem;
+	}
+}
+
 .secondary {
 	padding: 1rem;
 }

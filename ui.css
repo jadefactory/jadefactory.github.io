@@ -1,13 +1,25 @@
+mark {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #fff;
+	background-color: #333;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 25%);
+}
+
 /* bullet list */
-.role-list {
+.role-list,
+.skill-detail {
 	width: 100%;
 	margin-bottom: 2rem;
 }
-.role-list-item {
+.role-list-item,
+.skill-detail-item {
 	display: flex;
 	margin: 0.5em 0;
 }
-.role-list-item:before {
+.role-list-item:before,
+.skill-detail-item:before {
 	content: '▸';
 	margin-right: 0.5em;
 }
@@ -77,23 +89,24 @@
 	margin-bottom: 1rem;
 }
 
-/* friend list */
-.friend-item {
-	align-items: center;
-}
-.user-name {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+/* Skill & Knowledge */
+
+.skill-info {
+	flex-shrink: 0;
+	width: 200px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	/* background-color: yellow; */
 }
 
-mark {
-	padding: 2px 4px;
-	font-size: 90%;
-	color: #fff;
-	background-color: #333;
-	border-radius: 3px;
-	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 25%);
+.skill-name {
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+.skill-name-english {
+	margin-bottom: 0.5rem;
 }
 
 /* card list */
