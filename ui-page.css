@@ -163,20 +163,17 @@
 	}
 }
 
-.secondary {
-	padding: 1rem;
-}
-.secondary-a {
-	background: white;
-}
-.secondary-b {
-	color: white;
-	background: #666;
-}
 .footer {
 	padding: 1rem;
 	border-top: 1px solid lightgray;
 	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.footer a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
 }
 
 @media (min-width: 1024px) {
@@ -191,20 +188,11 @@
 		width: 100%;
 	}
 	.primary {
-		order: 2;
+		order: 1;
 		width: 80%;
 	}
-	.secondary {
-		width: 20%;
-	}
-	.secondary-a {
-		order: 1;
-	}
-	.secondary-b {
-		order: 3;
-	}
 	.footer {
-		order: 4;
+		order: 2;
 		width: 100%;
 	}
 }
@@ -215,8 +203,5 @@
 		flex-grow: 1;
 		flex: 1 1 auto;
 		flex: auto;
-	}
-	.secondary {
-		width: 300px;
 	}
 }
