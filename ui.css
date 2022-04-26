@@ -125,16 +125,16 @@ mark {
 .card-image img {
 	display: none;
 }
-a > .card-desc {
-	flex: 1 1 auto;
-	padding: 1em;
-	background: white;
-	text-decoration: none;
-}
+
 .card-desc {
 	flex: 1 1 auto;
 	padding: 1em;
 	background: white;
+}
+
+.card-desc a {
+	text-decoration: none;
+	color: #555;
 }
 
 @media (min-width: 600px) {
