@@ -54,7 +54,8 @@
 	}
 }
 
-.email {
+.email,
+.phone {
 	margin-bottom: 0.3em;
 }
 
