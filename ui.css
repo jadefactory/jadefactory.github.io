@@ -110,6 +110,10 @@ mark {
 }
 
 /* card list */
+.card-list {
+	padding-bottom: 2rem;
+}
+
 .card-item {
 	display: flex;
 	flex-direction: column;
