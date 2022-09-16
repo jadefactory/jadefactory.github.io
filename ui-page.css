@@ -59,7 +59,8 @@
 	margin-bottom: 0.3em;
 }
 
-.bold {
+.bold a {
+	color: #555;
 	font-weight: 700;
 }
 
