@@ -25,6 +25,10 @@ mark {
 	margin-right: 0.5em;
 }
 
+.skill-detail-item > a { 
+    color: rgb(139, 65, 0);
+}
+
 /* content */
 .content-list {
 	margin-bottom: 2rem;
